@@ -1,12 +1,32 @@
-<!doctype html> 
-<html>
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
-<link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="abc.js"></script>
+  <script src="site.css"></script>
+    <title>Desconto</title>
 </head>
-<body>
-    
-<h1>My First CSS Example</h1>
-<p>This is a paragraph</p>
+  
+<body> 
+  <h1>Descontometro</h1>
+
+<form action="" method="post">
+  Porcentagem do Desconto: <input type="number" id="n1" value="" />
+  <br> 
+  <br>
+  Valor Total: <input type="number" id="n2" value="" onblur="calcular()" /> <br> 
+</form>
+<br>
+<div id="resultado">Valor Final</div>
+<br>
+<div id="resultado2">
+  Quanto foi o Desconto  
+</div>
+  <div id="erro"></div>
+<br>
+<button onclick="calcular()">Resultado</button>
 
 </body>
 </html>

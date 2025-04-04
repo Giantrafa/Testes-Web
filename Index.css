@@ -1,7 +1,12 @@
-body{background-color: lightblue;}
-
-h1{color: white;
-text-align: center;}
-
-p{font-family: Verdana;
-font-size:20px;}
+#resultado{
+    border:1px solid green;
+    width: fit-content;
+    block-size: fit-content;
+    }
+    
+    #resultado2{
+      border:1px solid blue;
+      width: fit-content;
+      block-size: fit-content;
+    }
+    
